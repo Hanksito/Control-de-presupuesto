@@ -19,7 +19,7 @@ const ControlPresupuesto = ({
       title: "Reset App",
       text: "¿Estás seguro que deseas resetear la app?",
       icon: "warning",
-      buttons: ["no", "si"],
+      buttons: ["No", "Si"],
     }).then((respuestaAlerta) => {
       if (respuestaAlerta === true) {
         setPresupuesto(0);
